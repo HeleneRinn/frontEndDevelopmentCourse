@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box; 
 }
 h1{
 	margin-bottom: 30px;
@@ -8,32 +8,41 @@ h1{
 }
 h2
 {
+	font-size: 1.5em;
+	text-align: right;
+	margin: auto;
+	font-family:Courier;
+}
+h2 span {
 	background-color: lightpink;
 	border: 1px solid black;
-	font-size: 1.5em;
-	text-align: right;
-	margin: auto;
-	padding-right: 30px;
-	font-family:Courier, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 h3 {
-	background-color: darkred;
 	color:white;
-	border: 1px solid black;
 	font-size: 1.5em;
 	text-align: right;
 	margin: auto;
-	padding-right: 30px;
-	font-family:Courier, sans-serif;
+	font-family:Courier;
+}
+h3 span {
+	background-color: darkred;
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 h4 {
-	background-color: lightyellow;
-	border: 1px solid black;
 	font-size: 1.5em;
 	text-align: right;
     margin: auto;
-    padding-right: 30px;
-    font-family:Courier, sans-serif;
+    font-family:Courier;
+}
+h4 span {
+	background-color: lightyellow;
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 p {
 	background-color: grey;
