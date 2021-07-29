@@ -1,50 +1,37 @@
 *{
   box-sizing: border-box;
-  text-decoration: none;
-   list-style: none;
+  font-family: Courier;
 
 }
 body {
   font-size: 16px;
   color: black;
-  font-family: Courier;
 }
 
 /** HEADER **/
-#header-nav {
+.navbar {
   background-color: lightgrey;
   border-radius: 0;
   border: 0;
 }
 
-.navbar-brand h1 {
-  font-size: 2em;
+.navbar-brand {
+  font-size: 1em;
   color: black;
   margin-top: 0;
   margin-bottom: 0px;
   font-weight: bold;
-  padding-left: 10px;
-  font-family:Courier;
-}
-nav ul {
 }
 
-/** MAIN **/
-h2{
-  font-size: 2em;
-  text-align: center;
-  margin: auto;
-  font-weight: bold;
-  font-family:Courier;
-  padding-bottom: 10px;
+h1 {
+  font-weight: bold; 
 }
-h3{
-  font-size: 1.5em;
+h2{
+  font-size: 1em;
   text-align: center;
   margin: auto;
   font-weight: bold;
-  font-family:Courier;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 #box {
